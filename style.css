@@ -11,6 +11,8 @@
     background-size: cover;
     width:150px;
     height:150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shop{
@@ -36,7 +38,7 @@
     text-align: center;
 }
 
-.cookie-container, .upgrade, .cookie {
+.cookie-container, .upgrade {
     background-color: #C4A484;
     width: 960px;
     margin: 0 auto;
@@ -46,13 +48,11 @@
 
 }
 
+.upgrade:hover{
+    background-color:#b4987b;
+}
 .upgrade p {
     color: #7B3F00;
     font-weight: bold;
 }
 
-#cookie {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
