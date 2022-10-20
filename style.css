@@ -11,8 +11,6 @@
     background-size: cover;
     width:150px;
     height:150px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .shop{
@@ -36,6 +34,7 @@
     flex-direction: column;
     padding: 10px;
     text-align: center;
+
 }
 
 .cookie-container, .upgrade {
@@ -44,7 +43,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 
 }
 
